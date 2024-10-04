@@ -1,0 +1,45 @@
+name: routemate_frontend
+description: A new Flutter project for RouteMate, handling route tracking and hotspot analysis.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 状态管理
+  provider: ^6.1.2  # 使用Provider进行全局状态管理
+
+  # HTTP请求
+  http: ^1.2.2  # 用于与后端进行API交互
+
+  # 本地存储，存储用户登录Token
+  shared_preferences: ^2.3.2  # 用于保存JWT Token等数据
+
+  # 位置追踪插件
+  location: ^7.0.0  # 实时获取GPS位置
+
+  # 高德地图
+  amap_flutter_map: ^3.0.0  # 高德地图Flutter插件，用于地图展示
+  amap_flutter_base: ^3.0.0
+  amap_flutter_location: ^3.0.0
+  # UI相关
+  cupertino_icons: ^1.0.8  # iOS风格的图标
+  email_validator: ^3.0.0
+  flutter_secure_storage: ^9.2.2
+
+  permission_handler: ^11.3.1
+  latlong2: ^0.9.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # 配置地图API
+  assets:
+   
