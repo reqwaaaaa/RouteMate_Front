@@ -45,4 +45,6 @@ RouteMate前端( ***未完整*** )
 - **轨迹管理**：`/track/upload`, `/track/analyze`, `/track/history`
 - **推荐系统**：`/recommendations/poi`, `/recommendations/carpool`
 
-确保前后端 API 一致性，才能实现完整的功能交互。
+## 补充
+
+后续打算不采用前后端分离形式，尝试用`Flutter`单独实现`RouteMate`项目，不过这是后话了。
