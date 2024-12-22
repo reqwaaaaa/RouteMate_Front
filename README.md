@@ -8,3 +8,11 @@ RouteMate前端( ***Stalled*** )
 ## 后端链接
 
 [***RouteMate***](https://github.com/reqwaaaaa/RouteMate)
+
+## 学习资源
+
+- [***Textbook***](https://book.flutterchina.club/)
+- [***Dart***](https://dart.cn/)
+- [***Flutter***](https://docs.flutter.cn/)
+- [***demo***](https://pub.dev/)
+- [***icons***](https://fonts.google.com/icons?icon.size=24&icon.color=%235f6368)
